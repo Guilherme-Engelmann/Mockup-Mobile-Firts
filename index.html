@@ -1,0 +1,41 @@
+<doctype></doctype>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="validador.js"></script>
+    <script src="style.css"></script>
+
+    <title>Validando Formularios com JS</title>
+</head>
+<body>
+
+    <form action=""id="maquinistaForm">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome_maquinista" required>
+
+        <br>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf_maquinista" required>
+
+        <br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade_maquinista" required>
+
+        <br>
+
+        <label for="Experiencia">Experiencia:</label>
+        <input type="number" name="experiencia" id="experiencia_maquinista" required>
+
+        <br>
+
+        <button type="button" onclick="validarFormulario()">Enviar</button>
+
+    </form>
+    
+</body>
+</html>
