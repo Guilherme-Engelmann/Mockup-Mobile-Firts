@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: url('https://img.freepik.com/free-photo/dark-blue-felt-texture-background_53876-106693.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .login-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .avatar {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    margin-left: 10px;
+    width: 100%;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    margin: 10px 0;
+  }
+  
+  .options a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .btn-login {
+    background-color: #2baa40;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .register {
+    font-size: 0.85rem;
+  }
+  
+  .register a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
